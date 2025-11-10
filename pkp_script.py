@@ -30,13 +30,13 @@ def test_relax():
         print(f"An error occurred: {e}")
 
 def send_push_notification_chill():
-    api_key = "o.oY6iPtOfWkYrNfAPUPCjkIjqU4vkVaFM" 
+    api_key = "apikey" 
     pb = Pushbullet(api_key)
     push = pb.push_note("Pukkelpop Tickets Notification", "Chill Tickets are available! https://tickets.pukkelpop.be/nl/meetup/demand/day2/a/")
     print("Push notification sent.")
 
 def send_push_notification_relax():
-    api_key = "o.oY6iPtOfWkYrNfAPUPCjkIjqU4vkVaFM"  
+    api_key = "apikey"  
     pb = Pushbullet(api_key)
     push = pb.push_note("Pukkelpop Tickets Notification", "Relax Tickets are available! https://tickets.pukkelpop.be/nl/meetup/demand/day2/b/")
     print("Push notification sent.")
